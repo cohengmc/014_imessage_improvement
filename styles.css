@@ -1,3 +1,46 @@
 body {
-    background-color: pink;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#phone {
+    width: 260px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#keyboard {
+    width: 100%;
+    height: 150px;
+    background-color: #D0D3DA;
+}
+
+.letter {
+    background-color: white;
+    border: none;
+    border-bottom: .5px solid black;
+    height: 2em;
+    width: 20px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 500;
+    /* padding-left: 8px; */
+    /* padding-right: 8px; */
+    margin: 0 .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin: .4em 0;
 }
